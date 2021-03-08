@@ -8,8 +8,7 @@ def find_greatest_number(incoming_list):
     """
     
     incoming_list = [1, 2, 3]
-    x = max(incoming_list)
-    print(x)
+    max(incoming_list)
 
     pass
 
@@ -21,8 +20,7 @@ def find_least_number(incoming_list):
     """
 
     incoming_list = [4, 5, 6]
-    y = min(incoming_list)
-    print(y)
+    min(incoming_list)
 
     pass
 
@@ -34,9 +32,8 @@ def add_list_numbers(incoming_list):
     """
 
     incoming_list = [7, 8, 9, 10]
-    z = sum(incoming_list)
-    print(z)
-
+    sum(incoming_list)
+    
     pass
 
 
@@ -52,6 +49,6 @@ def longest_value_key(incoming_dict):
         'Michael Jackson': 236.6, 
         'Elton John': 194.7, 
         'Madonna': 178.9}
-    print(max(incoming_dict, key=incoming_dict.get))
+    max(incoming_dict, key=incoming_dict.get)
 
     pass
