@@ -31,7 +31,6 @@ def add_list_numbers(incoming_list):
     Add all the values together and return it.
     """
 
-    incoming_list = [1, 2, 3, 4]
     y = sum(incoming_list)
     return y
     
