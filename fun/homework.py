@@ -31,7 +31,10 @@ def add_list_numbers(incoming_list):
     Add all the values together and return it.
     """
 
-    y = sum(incoming_list)
+    if incoming_list: 
+        y = sum(incoming_list)
+    else
+        y = 0
     return y
     
     pass
@@ -44,7 +47,23 @@ def longest_value_key(incoming_dict):
     """
 
     # z = max(incoming_dict, key=incoming_dict.get)
-    z = max(incoming_dict, key=len)
-    return z
+    # z = max(incoming_dict, key=len)
+    
+    if not incoming_dict
+        return None
+
+    all_keys = incoming_dict.keys()
+    if not all_keys
+        return None
+
+    key_with = None
+    for keys in all_keys
+        if not key_with:
+            key_with = key
+
+        if len(incoming_dict[key]) > len(incoming_dict[key_with]):
+            key_with = key
+
+    return key_with
 
     pass
