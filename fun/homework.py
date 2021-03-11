@@ -67,3 +67,5 @@ def longest_value_key(incoming_dict):
     return key_with
 
     pass
+
+# python -m isort ./fun/homework.py --check
